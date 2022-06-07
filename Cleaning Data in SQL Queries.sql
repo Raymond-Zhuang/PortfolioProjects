@@ -22,6 +22,10 @@ FROM NashvilleHousing
 UPDATE NashvilleHousing
 SET SaleDate = CONVERT(Date, SaleDate) 
 
+-----OR-----
+
+ALTER TABLE  NashvilleHousing
+ALTER COLUMN SaleDate DATE
 
 
 
